@@ -1,5 +1,5 @@
 const sidebar = document.querySelector('.sidebar')
-console.log(sidebar)
+// console.log(sidebar)
 const toggle = document.querySelector('.toggle')
 toggle.addEventListener('click', () => {
   sidebar.classList.add('show')
