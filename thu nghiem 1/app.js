@@ -1,5 +1,8 @@
 const sidebar = document.querySelector('.sidebar')
-// console.log(sidebar)
+
+console.log(sidebar)
+// change on new branch to see what will happen after merge
+
 const toggle = document.querySelector('.toggle')
 toggle.addEventListener('click', () => {
   sidebar.classList.add('show')
